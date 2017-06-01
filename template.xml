@@ -1,0 +1,18 @@
+<template format="4"
+        revision="1"
+        name="MVVM Fundamentals"
+        description="MVVM setup with Dependency Injection, RxJava/RxAndroid and Retrofit">
+
+    <category value="Other"/>
+
+    <parameter id="className"
+        name="Project Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Demo"
+        help="The name of the functionality to setup the MVVM"/>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
